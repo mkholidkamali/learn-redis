@@ -70,3 +70,9 @@ Server Information
 - Operation
     - info 
     - config get {config-key}
+
+Client Connection
+- Operation 
+    - client id
+    - client list
+    - client kill {ip:port}
