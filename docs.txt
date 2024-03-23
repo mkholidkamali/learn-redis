@@ -25,3 +25,10 @@ Strings
     - keys {*} | {pattern}  -> keys deb*
     - setrange {key} {offset} {value}
     - getrange {key} {start} {end}
+
+Expire
+= Set expire to data, after time is up. The key value will be deleted
+- Operation
+    - expire {key} {seconds}
+    - setex {key} {seconds} {value}
+    - ttl {key}
