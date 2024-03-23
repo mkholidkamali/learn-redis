@@ -32,3 +32,11 @@ Expire
     - expire {key} {seconds}
     - setex {key} {seconds} {value}
     - ttl {key}
+
+Increment & decrement
+= Safest way to increase or decrease value
+- Operation
+    - incr {key}
+    - decr {key}
+    - incrby {key} {length}
+    - decrby {key} {length}
