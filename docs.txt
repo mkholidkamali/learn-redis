@@ -95,3 +95,10 @@ Security
     - user kk on +@all ~* >rahasia
     - restart server 
     - auth {username} {password}
+
+Persistence
+= Save data to .rdb file
+- Operation 
+    - Head to snapshooting config
+    - Uncomment save 
+    - or you can manually save by exex : save
