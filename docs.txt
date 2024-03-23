@@ -76,3 +76,13 @@ Client Connection
     - client id
     - client list
     - client kill {ip:port}
+
+Protected mode
+= Disable connection from outter bind ip
+- Operation
+    - Change ip bind connection on config
+    - To check ip on mac, exec ifconfig. Look out to inet ip
+    - make sure protected-mode yes on config
+    - restart redis-server
+    - Login with ip on config
+
