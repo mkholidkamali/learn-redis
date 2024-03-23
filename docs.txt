@@ -66,3 +66,7 @@ Monitor
     - monitor
 
 
+Server Information
+- Operation
+    - info 
+    - config get {config-key}
