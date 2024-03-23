@@ -1,0 +1,27 @@
+
+What is redis?
+= Redis is a in-memory data store with dictionary structure (Key value)
+
+Quick starts
+- Start server 
+    - Manual : redis-server
+    - Auto : brew services start redis
+- CLI
+    - Open : redis-cli -h {ip} -p {port-number}
+
+Databases 
+= Redis use array like databases, from index 0-n. U can change databases length on config.
+- Command
+    - Switch between databases : select {database-index}
+
+Strings 
+= Redis can manipulate string value
+- Operation
+    - set {key} {value}
+    - get {key}
+    - exists {key}
+    - del {key} | {[key...]}
+    - append {key} {value}
+    - keys {*} | {pattern}  -> keys deb*
+    - setrange {key} {offset} {value}
+    - getrange {key} {start} {end}
