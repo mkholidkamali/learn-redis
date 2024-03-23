@@ -40,3 +40,10 @@ Increment & decrement
     - decr {key}
     - incrby {key} {length}
     - decrby {key} {length}
+
+Flush
+= Erase all data from redis 
+- Operation 
+    - flushdb
+    - flushall
+
