@@ -86,3 +86,12 @@ Protected mode
     - restart redis-server
     - Login with ip on config
 
+Security 
+= Authorize logged user when protected-mode is active
+- Operation
+    - Head to security config
+    - Add user acl
+    - user default on +@connection
+    - user kk on +@all ~* >rahasia
+    - restart server 
+    - auth {username} {password}
