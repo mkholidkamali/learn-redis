@@ -59,3 +59,10 @@ Transaction
     - multi
     - exec 
     - discard
+
+Monitor
+= Print all executed operation 
+- Operation
+    - monitor
+
+
