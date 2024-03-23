@@ -52,3 +52,10 @@ Pipeline
 - Operation
     - Create file with operation init 
     - redis-cli -h {ip} -p {port} -n {database-index} --pipe < {file-operation.txt}
+
+Transaction
+= Queued the operation process, then u can exec or discard operation 
+- Operation 
+    - multi
+    - exec 
+    - discard
