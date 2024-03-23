@@ -47,3 +47,8 @@ Flush
     - flushdb
     - flushall
 
+Pipeline
+= Execute bulk operation from file
+- Operation
+    - Create file with operation init 
+    - redis-cli -h {ip} -p {port} -n {database-index} --pipe < {file-operation.txt}
